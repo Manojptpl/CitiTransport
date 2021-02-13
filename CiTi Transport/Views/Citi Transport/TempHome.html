@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("p").mouseover(function () {
+                $("p").css("background-color", "Yellow");
+            });
+            $("p").mouseout(function () {
+                $("p").css("background-color", "#e6e6e6");
+            });
+        });
+        function bigImg(x) {
+            x.style.height = "300px";
+            x.style.width = "1000px";
+        }
+
+        function normalImg(x) {
+            x.style.height = "252px";
+            x.style.width = "962px";
+        }
+
+    </script>
+    <style type="text/css">
+        #footer {
+            clear: both;
+            padding: 10px;
+            background-color: #999999;
+            color: white;
+            text-align: right;
+        }
+        #footer1 {
+            clear: both;
+            padding: 10px;
+            color:#333333;
+            background-color: #292929;
+            
+        }
+        #footer2 {
+            clear: both;
+            padding: 10px;
+            color:#D2D2D2;
+            background-color: #383838;            
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info" style="height:100px;">
+        <!--<img src="../../Image/CiTi_Logo.jpg" />-->
+        <a href="#" class="navbar-brand"><img src="../../Image/CiTiTransportLogo.jpg" style="width: 115px; height:100px;" alt="" /><span>CiTi Transport Pvt. Ltd.</span></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myMenu" style="margin-right:120px;">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="TempHome.html" class="nav-link" id="Home">Home</a></li>
+                <li class="nav-item"><a href="TransportMgt.html" class="nav-link" id="TransportMgt">Transportation Management</a></li>
+                <li class="nav-item"><a href="LogisticServices.html" class="nav-link" id="Logistic_Service">Logistic Services</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Freight Audit</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Technology Logins</a></li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">About Us</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="ExecutiveProfiles.html" id="Executive_Profiles">Executive Profiles</a>
+                        <a class="dropdown-item" href="ContactUs.html" id="ContactUs">Contact Us</a>
+                        <a class="dropdown-item" href="CompAddress.html" id="Address">Address</a>
+                        <a class="dropdown-item" href="PhotoGallery.html" id="PhotoGallery">Photo Gallery</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row" style="margin-top:100px;">
+        <div class="column">
+            <img src="../../Image/HomePageCloud-1.jpg" alt="Snow" style="width: 962px; height: 252px; margin-left: 206px; margin-right: 31px;" onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+        </div>
+    </div>
+    <br />
+    <div style="background-color:#e6e6e6; margin-left: 193px; margin-right: 192px;">
+        <br />
+        <br />
+        <br />
+        <h4 style="text-align:center">The FSL Group is a third party logistics provider.</h4>
+        <br />
+        <p style="text-align:center" onmouseover="ba">
+            We offer a full spectrum of supply chain and logistics services.
+            Our staff of experienced transportation professionals will design solutions that are right for you.
+            It doesn’t matter if you are a small business or a large  Fortune 500 company, we have the insight that can make the most of your transportation spend.
+            Look inside at what we offer, and give us a call. We’ll be happy to help.
+        </p>
+        <div id="footer1">
+        </div>
+        <div id="footer2">
+
+        </div>
+        <div id="footer">
+            Copyright &copy; 2019 CiTi Transport.
+        </div>
+    </div>
+    
+
+</body>
+</html>

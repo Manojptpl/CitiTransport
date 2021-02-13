@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+   <style type="text/css">
+        body{
+    background-color:#808080;
+    }
+       .slideshow {
+           width:80%;
+           height:700px;
+           margin:auto;
+       }
+       #slideimage {
+           width:100%;
+           height:550px;
+       }
+       
+   </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //$("#ContactUs").on('click', function (event) {
+            //    event.preventDefault();
+            //    var url = 'http://localhost:14895/Views/Citi%20Transport/ContactUs.html';                
+            //    $(location).attr('href', url);
+                
+            //});
+            //$("#PhotoGallery").on('click', function (event) {
+            //    event.preventDefault();
+            //    var url = 'http://localhost:14895/Views/Citi%20Transport/PhotoGallery.html';
+            //    $(location).attr('href', url);
+
+            //});
+            //$("#Home").on('click', function (event) {
+            //    event.preventDefault();
+            //    var url = 'http://localhost:14895/Views/Citi%20Transport/TempHome.html';
+            //    $(location).attr('href', url);
+
+            //});
+            //$("#Address").on('click', function (event) {
+            //    event.preventDefault();
+            //    var url = 'http://localhost:14895/Views/Citi%20Transport/CompAddress.html';
+            //    $(location).attr('href', url);
+
+            //});
+            //$("#Logistic_Service").on('click', function (event) {
+            //    event.preventDefault();
+            //    var url = 'http://localhost:14895/Views/Citi%20Transport/LogisticServices.html';
+            //    $(location).attr('href', url);
+
+            //});
+            //$("#Executive_Profiles").on('click', function (event) {
+            //    event.preventDefault();
+            //    var url = 'http://localhost:14895/Views/Citi%20Transport/ExecutiveProfiles.html';
+            //    $(location).attr('href', url);
+
+            //});
+            //$("#TransportMgt").on('click', function (event) {
+            //    event.preventDefault();
+            //    var url = 'http://localhost:14895/Views/Citi%20Transport/TransportMgt.html';
+            //    $(location).attr('href', url);
+
+            //});
+           
+        });
+        
+    </script>
+    
+</head>
+<body>            
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info" style="height:100px;">  
+        <!--<img src="../../Image/CiTi_Logo.jpg" />-->      
+        <a href="#" class="navbar-brand"><img src="../../Image/CiTiTransportLogo.jpg" style="width: 115px; height:100px;" alt="" /><span>CiTi Transport Pvt. Ltd.</span></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myMenu" style="margin-right:120px;">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="TempHome.html" class="nav-link" id="Home">Home</a></li>                
+                <li class="nav-item"><a href="TransportMgt.html" class="nav-link" id="TransportMgt">Transportation Management</a></li>
+                <li class="nav-item"><a href="LogisticServices.html" class="nav-link" id="Logistic_Service">Logistic Services</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Freight Audit</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Technology Logins</a></li>                
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">About Us</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="ExecutiveProfiles.html" id="Executive_Profiles">Executive Profiles</a>
+                        <a class="dropdown-item" href="ContactUs.html" id="ContactUs">Contact Us</a>
+                        <a class="dropdown-item" href="CompAddress.html" id="Address">Address</a> 
+                        <a class="dropdown-item" href="PhotoGallery.html" id="PhotoGallery">Photo Gallery</a>                       
+                    </div>
+                </li>
+            </ul>
+        </div>        
+    </nav>    
+  
+      
+    <div class="container" style="margin-left:275px">
+        <div class="row">
+            <div class="col-xs-12">
+                <div id="imageCarousel" class="carousel slide" data-interval="4000" data-ride="carousel" data-pause="hover" data-wrap="true">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#imageCarousel" data-slide-to="0"></li>
+                        <li data-target="#imageCarousel" data-slide-to="1"></li>
+                        <li data-target="#imageCarousel" data-slide-to="2"></li>                        
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">  
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <img src="../../Image/photo-1.jpg" alt="" class="img-responsive" style="width:260px; height:190px;" />
+                                    <div class="carousel-caption">                                        
+                                        <p>Made by Prudence Technology Pvt.</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="../../Image/photo-2.jpg" alt="" class="img-responsive" style="width:260px; height:190px;" />
+                                    <div class="carousel-caption">                                        
+                                        <p>Made by Prudence Technology Pvt.</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="../../Image/photo-3.jpg" alt="" class="img-responsive" style="width:260px; height:190px;" />
+                                    <div class="carousel-caption">
+                                        <p>Made by Prudence Technology Pvt.</p>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>  
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <img src="../../Image/photo-4.jpg" alt="" class="img-responsive" style="width:260px; height:190px;" />
+                                    <div class="carousel-caption">                                       
+                                        <p>Made by Prudence Technology Pvt.</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="../../Image/photo-5.jpg" alt="" class="img-responsive" style="width:260px; height:190px;" />
+                                    <div class="carousel-caption">                                        
+                                        <p>Made by Prudence Technology Pvt.</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="../../Image/photo-6.jpg" alt="" class="img-responsive" style="width:260px; height:190px;" />
+                                    <div class="carousel-caption">                                        
+                                        <p>Made by Prudence Technology Pvt.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                              
+                    </div>
+                    <a href="#imageCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a href="#imageCarousel" class="carousel-control-next" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>       
+</body>
+</html>
